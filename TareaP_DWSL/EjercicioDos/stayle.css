@@ -1,0 +1,28 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para los elementos input */
+.input-container input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input:invalid {
+    background-color: gray;
+}
+
+input:valid {
+    background-color: white;
+}
+
+#guardarButton {
+    background-color: #e7e433;
+    color: #141111;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

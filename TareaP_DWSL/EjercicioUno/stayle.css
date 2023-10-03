@@ -1,0 +1,22 @@
+  /* Estilo para el contenedor del formulario */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para los elementos input */
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón */
+#guardarButton {
+    background-color: #016a85;
+    color: #141111;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

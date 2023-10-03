@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stayle.css">
+    <title>Ejercicio 2</title>
+<body>
+    <form>
+        <div class="input-container">
+            <h1>Formulario</h1>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <!--Para este campo se requiere un número de 8 dígitos seguido de un guión y un dígito adicional para ser válido.-->
+            <label for="dui">DUI:</label>
+            <input type="text" id="dui" name="dui" pattern="[0-9]{8}-[0-9]{1}" required><br>
+
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" required><br>
+
+            <label for="genero">Género:</label>
+            <input type="text" id="genero" name="genero" required><br>
+
+            <label for="departamento">Departamento:</label>
+            <input type="text" id="departamento" name="departamento" required><br>
+        </div>
+        <div style="text-align: center;">
+            <button type="button" id="guardarButton" onclick="guardar()">GUARDAR</button>
+        </div>
+    </form>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

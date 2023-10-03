@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stayle.css">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <div class="input-container">
+    <h1>Formulario con Selects</h1>
+    <form id="miFormulario">
+        <label for="departamento">DEPARTAMENTO:</label>
+        <select id="departamento">
+            <option value="san-miguel">San Miguel</option>
+            <option value="la-union">La Unión</option>
+            <option value="morazan">Morazán</option>
+            <option value="usulutan">Usulután</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="genero">GENERO:</label>
+        <select id="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="educacion">EDUCACION:</label>
+        <select id="educacion">
+            <option value="bachiller">Bachiller</option>
+            <option value="pregrado">Pregrado</option>
+            <option value="postgrado">Postgrado</option>
+            <option value="doctorado">Doctorado</option>
+        </select>
+        <br>
+        <br>
+    </div>
+    <div>
+        <button type="button" id="guardarButton" onclick="guardar()">GUARDAR</button>
+    </div>
+    </form>
+    <script src="/js/script.js"></script>
+</body>
+</html>
